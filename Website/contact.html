@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+<head>
+	
+	<title>Contact</title>
+
+	
+	<link rel="stylesheet" href="css/linearicons.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/nice-select.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+	
+	<header class="default-header">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<img src="img/logo.png" alt="">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="fa fa-bars"></span>
+				</button>
+
+				<div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+					<ul class="navbar-nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="supportfund.html">Support Fund</a></li>
+						
+						<li class="dropdown">
+							<a class="dropdown-toggle " href="#" id="navbardrop" data-toggle="dropdown">
+								Pages
+							</a>
+							<div class="dropdown-menu">
+							  <a class="dropdown-item" href="information.html">Information</a>
+								<a class="dropdown-item" href="infographic.html">Infographic</a>
+							</div>
+						</li>
+						<li class="dropdown">
+						  <a class="dropdown-toggle active" href="#" id="navbardrop" data-toggle="dropdown">
+								About
+							</a>
+							<div class="dropdown-menu">
+							  <a class="dropdown-item" href="contact.html">Contact</a>
+							</div>
+						</li>
+						
+				  </ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	
+	<section class="banner-area relative">
+		<div class="overlay overlay-bg"><img src="contact.jpg" width="1500" height="550"></div>
+		<div class="container">
+			<div class="row justify-content-between align-items-center text-center banner-content">
+				<div class="col-lg-12">
+					<center><h1 class="text-white">Contact</h1>
+					<p>About the creator</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	</center>
+   <br><br><br><br><br><br> <center><img src="profile.jpg" width="500" height="300"></center><br><center>Marie Samantha Fidelia<br>9B/21<br> 14 May 2004<br><br>
+      <div class="container">
+        <div
+          id="mapBox"
+          class="mapBox"
+          data-lat="40.701083"
+          data-lon="-74.1522848"
+          data-zoom="13"
+          data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia."
+          data-mlat="40.701083"
+          data-mlon="-74.1522848"
+        ></div>
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="contact_info">
+              <div class="info_item">
+                <i class="fa fa-home"></i>
+                <h6>Tangerang Selatan, Indonesia</h6>
+                <p>Sutera Narada, Alam Sutera</p>
+              </div>
+              <div class="info_item">
+                <i class="fa fa-phone"></i>
+                <h6><a href="#">(021) 85282000122</a></h6>
+                <p>Marie Samantha Fidelia</p>
+              </div>
+              <div class="info_item">
+                <i class="fa fa-envelope"></i>
+                <h6><a href="#">marieSamantha.f@Gmail.com</a></h6>
+                <p>9B/21</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <form
+              class="row contact_form"
+              action="contact_process.php"
+              method="post"
+              id="contactForm"
+              novalidate="novalidate"
+            >
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = 'Enter your name'"
+                    required=""
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    placeholder="Enter email address"
+                    onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = 'Enter email address'"
+                    required=""
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="subject"
+                    name="subject"
+                    placeholder="Enter Subject"
+                    onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = 'Enter Subject'"
+                    required=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    id="message"
+                    rows="1"
+                    placeholder="Enter Message"
+                    onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = 'Enter Message'"
+                    required=""
+                  ></textarea>
+                </div>
+              </div>
+              <div class="col-md-12 text-right">
+                <button type="submit" value="submit" class="btn primary-btn">
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+</section>
+
+    <div id="success" class="modal modal-message fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <i class="ti-close"></i>
+            </button>
+            <h2>Thank you</h2>
+            <p>Your message is successfully sent...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div id="error" class="modal modal-message fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <i class="ti-close"></i>
+            </button>
+            <h2>Sorry !</h2>
+            <p>Something went wrong</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<script src="js/vendor/jquery-2.2.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+	 crossorigin="anonymous"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+    <script src="js/gmaps.min.js"></script>
+    <script src="js/contact.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
